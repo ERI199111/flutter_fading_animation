@@ -1,0 +1,22 @@
+name: fading_text_animation  # Project name (must be lowercase, no spaces)
+description: A Flutter app demonstrating fading text animations.
+publish_to: "none"  # Prevents publishing to pub.dev
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3  # Dependency for color picker
+
+  # Other commonly used dependencies (ensure you have them if needed)
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
